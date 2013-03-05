@@ -36,6 +36,7 @@
 					<configLocation>checkstyle.xml</configLocation>
 					<skip>false</skip>
 					<includes>**/*.java,**/*.properties</includes>
+					<includeTestSourceDirectory>true</includeTestSourceDirectory>
 				</configuration>
 				<executions>
 					<execution>

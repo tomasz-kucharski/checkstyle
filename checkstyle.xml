@@ -37,10 +37,6 @@
 		<property name="format" value="\s+$"/>
 		<property name="message" value="Line has trailing spaces."/>
 	</module>
-	<module name="RegexpSingleline">
-		<property name="format" value="^\s*;\s*$"/>
-		<property name="message" value="Line has empty semicolon."/>
-	</module>
 	<module name="RegexpMultiline">
 		<property name="format" value="System\s*\.(err|out)\s*\.print"/>
 		<property name="message" value="Illegal usage of System.out.println() - use logger instead"/>
