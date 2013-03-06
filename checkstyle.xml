@@ -121,9 +121,9 @@
 
 		<!-- 									BLOCKS. See http://checkstyle.sourceforge.net/config_blocks.html -->
 		<module name="EmptyBlock"/>
+		<module name="NeedBraces"/>
 		<!--<module name="AvoidNestedBlocks"/>-->
 		<!--<module name="LeftCurly"/>-->
-		<!--<module name="NeedBraces"/>-->
 		<!--<module name="RightCurly"/>-->
 
 		<!-- 									CODING. See http://checkstyle.sourceforge.net/config_coding.html -->

@@ -16,4 +16,12 @@ public class RuleViolationsTest {
 		//SUPPRESS CHECKSTYLE RegexpSinglelineJava
         new Integer(5);
 	}
+
+	public int shouldNotAllowOneLineCodeBlocksWithoutBraces() {
+		int someValue = 5;
+		//SUPPRESS CHECKSTYLE NeedBraces
+		if (Math.abs(someValue) > 5)
+			someValue = 7;
+		return someValue;
+	}
 }
